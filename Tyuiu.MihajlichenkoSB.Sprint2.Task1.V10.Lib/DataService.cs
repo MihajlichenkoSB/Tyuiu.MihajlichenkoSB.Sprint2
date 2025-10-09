@@ -8,9 +8,9 @@ namespace Tyuiu.MihajlichenkoSB.Sprint2.Task1.V10.Lib
         {
             bool[] results = new bool[6];
 
-            results[0] = (a == b);
+            results[0] = (a != c * d);
 
-            results[1] = (a != c * d);
+            results[1] = (a == b);
 
             results[2] = (b < a) && (c > d);
 
